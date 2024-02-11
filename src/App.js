@@ -1,11 +1,10 @@
 import './App.css';
-import Chat, {Toggle} from "./items/RefereningValuesWithRefs";
+import {RefereningValuesWithRefs} from "./items/RefereningValuesWithRefs";
 
 function App() {
     return (
         <div>
-            {/*<Chat/>*/}
-            <Toggle/>
+            <RefereningValuesWithRefs/>
         </div>
     );
 }
