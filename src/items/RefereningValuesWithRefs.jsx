@@ -39,3 +39,18 @@ export default function Chat() {
         </>
     );
 }
+
+
+export function Toggle() {
+    // const isOnRef = useRef(false);
+    const [isOnRef, setIsOnRef] = useState(false)
+    return (
+        <button onClick={() => {
+            setIsOnRef(!isOnRef)
+            // isOnRef.current = !isOnRef.current;
+        }}>
+            {isOnRef ? 'On' : 'Off'}
+            {/*{isOnRef.current ? 'On' : 'Off'}*/}
+        </button>
+    );
+}

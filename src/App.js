@@ -1,12 +1,13 @@
 import './App.css';
-import Chat from "./items/RefereningValuesWithRefs";
+import Chat, {Toggle} from "./items/RefereningValuesWithRefs";
 
 function App() {
-  return (
-    <div >
-  <Chat/>
-    </div>
-  );
+    return (
+        <div>
+            {/*<Chat/>*/}
+            <Toggle/>
+        </div>
+    );
 }
 
 export default App;
