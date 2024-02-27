@@ -1,14 +1,13 @@
 import './App.css';
-import {YourFirstComponent} from "./items/YourFirstComponent";
-import {RefereningValuesWithRefs} from "./items/RefereningValuesWithRefs";
-import {PassingPropsToAComponent} from "./items/PassingPropsToAComponent";
+import ReactingToInputWithState from "./items/ReactingToInputWithState";
 
 function App() {
     return (
         <div>
             {/*<RefereningValuesWithRefs/>*/}
             {/*<YourFirstComponent/>*/}
-            <PassingPropsToAComponent/>
+            {/*<PassingPropsToAComponent/>*/}
+            <ReactingToInputWithState/>
         </div>
     );
 }
